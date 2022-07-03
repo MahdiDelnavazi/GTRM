@@ -1,3 +1,3 @@
-# Database-benchmark
+# GTRM (Golang-Transaction-Rabbitmq-Mongodb)
 
-database benchmark for check data intigrity and performance in each database with golang
+handle transaction and ACID in mongodb with rabbitmq
