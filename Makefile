@@ -8,4 +8,4 @@ server:
 ampqServer:
 	go run consumer/main.go
 
-.PHONY:  test server consServer
+.PHONY:  test server ampqServer
