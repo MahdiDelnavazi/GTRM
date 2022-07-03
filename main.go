@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/MahdiDelnavazi/GTRM/Mongo"
 	"github.com/gin-gonic/gin"
-	"github.com/mahdidl/Database-benchmark/Mongo"
 	"net/http"
 )
 

@@ -5,8 +5,8 @@ import (
 	"context"
 	"encoding/gob"
 	"fmt"
+	"github.com/MahdiDelnavazi/GTRM/Mongo/Entity"
 	"github.com/gin-gonic/gin"
-	"github.com/mahdidl/Database-benchmark/Mongo/Entity"
 	"github.com/streadway/amqp"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
@@ -14,7 +14,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readconcern"
 	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"log"
 	"net/http"
 )
 

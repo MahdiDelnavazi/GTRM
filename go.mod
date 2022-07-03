@@ -1,4 +1,4 @@
-module github.com/mahdidl/Database-benchmark
+module github.com/MahdiDelnavazi/GTRM
 
 go 1.18
 

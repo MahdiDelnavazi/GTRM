@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/mahdidl/Database-benchmark/Mongo/Entity"
+	"github.com/MahdiDelnavazi/GTRM/Mongo/Entity"
 	"github.com/streadway/amqp"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
@@ -14,9 +14,14 @@ import (
 	"time"
 )
 
+var (
+	MongoName = "database-benchmark"
+	MongoUrl  = "mongodb://localhost:27017/"
+)
+
 func main() {
 
-	MongoClient, ctx, err := connect("mongodb://localhost:27017/")
+	MongoClient, ctx, err := connect(MongoUrl)
 	err = Ping(MongoClient, ctx)
 
 	// connect to rabbitmq
@@ -55,7 +60,7 @@ func main() {
 		for msg := range msgs {
 
 			// get mongo collection
-			mongodb := MongoClient.Database("database-benchmark")
+			mongodb := MongoClient.Database(MongoName)
 			BenchCollection := mongodb.Collection("Bench")
 
 			// get bench id from body
