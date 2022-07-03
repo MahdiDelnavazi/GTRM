@@ -5,7 +5,6 @@ GTRM using :
 * [**RabbitMQ**](https://www.rabbitmq.com/)
 * [**MongoDB**](https://www.mongodb.com/)
 * [**Gin Gonic**](https://github.com/gin-gonic/gin)
-</br>
 
 ## Motivation
 ### ACID : 
