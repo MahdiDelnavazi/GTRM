@@ -1,4 +1,4 @@
-# GTRM
+# GTRM (Golang-Transaction-RabbitMQ-MongoDB)
 
 GTRM using :
 * [**Golang**](https://go.dev/)
