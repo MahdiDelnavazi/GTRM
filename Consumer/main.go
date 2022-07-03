@@ -47,7 +47,7 @@ func main() {
 		false,
 		nil,
 	)
-	failOnErrorRabbitmq(err, "Failed to register a consumer")
+	failOnErrorRabbitmq(err, "Failed to register a Consumer")
 
 	forever := make(chan bool)
 
