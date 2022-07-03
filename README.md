@@ -12,7 +12,7 @@ For start server :
 $ make server
 ```
 
-For start consumer (rabbitmq) :
+For start consumer (RabbitMQ) :
 ```
 $ make ampqServer
 ```
