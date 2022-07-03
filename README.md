@@ -4,8 +4,8 @@ GTRM using :
 * [**Golang**](https://go.dev/)
 * [**RabbitMQ**](https://www.rabbitmq.com/)
 * [**MongoDB**](https://www.mongodb.com/)
-* [**Gin Gonic**](https://github.com/gin-gonic/gin)
-  to implement ACID Transaction in Mongodb
+* [**Gin Gonic**](https://github.com/gin-gonic/gin)</br>
+  for implement ACID Transaction in Mongodb
 
 ## Motivation
 ### ACID : 
