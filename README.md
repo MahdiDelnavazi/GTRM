@@ -1,10 +1,11 @@
-# GTRM 
+# GTRM
 
 GTRM using :
 * [**Golang**](https://go.dev/)
 * [**RabbitMQ**](https://www.rabbitmq.com/)
-* [**MongoDB**](https://www.mongodb.com/) </br>
-to implement ACID in MongoDb
+* [**MongoDB**](https://www.mongodb.com/)
+* [**Gin Gonic**](https://github.com/gin-gonic/gin)
+</br>
 
 ## Motivation
 ### ACID : 
